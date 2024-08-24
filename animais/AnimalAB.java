@@ -1,3 +1,7 @@
+package animais;
+
+import interfaces.AnimalIF;
+
 public abstract class AnimalAB implements AnimalIF {
     protected String nomeEspecie;
     protected int comidaIngerida;

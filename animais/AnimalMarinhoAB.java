@@ -1,3 +1,5 @@
+package animais;
+
 public abstract class AnimalMarinhoAB extends AnimalAB {
     protected String habitat;
     protected double peso;

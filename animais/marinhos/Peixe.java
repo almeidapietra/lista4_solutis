@@ -1,3 +1,7 @@
+package animais.marinhos;
+
+import animais.AnimalMarinhoAB;
+
 public class Peixe extends AnimalMarinhoAB {
     public Peixe(String nome, String habitat, double peso) {
         super(nome, habitat, peso);
@@ -9,5 +13,5 @@ public class Peixe extends AnimalMarinhoAB {
         caminhoPercorrido += distancia;
     }
 
-    // Pode-se sobrescrever comer e dormir se necessário, senão a implementação de AnimalAB será utilizada
+    // Pode-se sobrescrever comer e dormir se necessário, senão a implementação de animais.AnimalAB será utilizada
 }

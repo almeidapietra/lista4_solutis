@@ -1,3 +1,5 @@
+package animais;
+
 public abstract class AnimalVoadorAB extends AnimalAB {
     protected int quantidadeAssas;
     protected double envergaduraAssa;

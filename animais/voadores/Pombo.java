@@ -1,3 +1,7 @@
+package animais.voadores;
+
+import animais.AnimalVoadorAB;
+
 public class Pombo extends AnimalVoadorAB {
     public Pombo(String nome, int quantidadeAssas, double envergaduraAssa, double altura) {
         super(nome, quantidadeAssas, envergaduraAssa, altura);
@@ -9,5 +13,5 @@ public class Pombo extends AnimalVoadorAB {
         caminhoPercorrido += distancia;
     }
 
-    // Pode-se sobrescrever comer e dormir se necessário, senão a implementação de AnimalAB será utilizada
+    // Pode-se sobrescrever comer e dormir se necessário, senão a implementação de animais.AnimalAB será utilizada
 }

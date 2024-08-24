@@ -1,3 +1,5 @@
+package animais;
+
 public abstract class AnimalTerrestreAB extends AnimalAB {
     protected int quantidadePatas;
     protected double altura;
